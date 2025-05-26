@@ -892,7 +892,7 @@ function mp.get_script_directory() end
 --- Show an OSD message on the screen. `duration` is in seconds, and is optional (uses `--osd-duration` by default).
 ---
 ---@param message  string
----@param duration number
+---@param duration? number
 function mp.osd_message(message, duration) end
 
 --region Depreciated
