@@ -36,6 +36,8 @@
 ---@field public data   string
 ---@field public res_x  number
 ---@field public res_y  number
+---@field public hidden boolean
+---@field public computed_bounds boolean
 
 ---@class OSD_Overlay : OSD_Overlay_Data
 ---@field public update fun(): nil
